@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9e5f2;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff8fc3;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #fff;
+}
+
+header h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin: 5px 0 20px 0;
+}
+
+#about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff; 
+    margin: 20px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-me-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.about-me-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ff8fc3;
+    margin-right: 20px;
+}
+
+.about-me-text h2 {
+    font-size: 2rem;
+    color: #ff67a3;
+    margin-bottom: 10px;
+}
+
+.about-me-text p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* New Prasmes Section */
+#prasmes {
+    padding: 50px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#prasmes h3 {
+    font-size: 2rem;
+    color: #ff67a3;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#prasmes ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#prasmes li {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px;
+    background-color: #fff;
+    text-align: left;
+}
+
+#contact h3 {
+    font-size: 2rem;
+    color: #ff67a3;
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #ff6f91;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
